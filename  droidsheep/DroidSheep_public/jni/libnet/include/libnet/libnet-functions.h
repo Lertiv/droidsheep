@@ -133,7 +133,7 @@ libnet_getpbuf_size(libnet_t *l, libnet_ptag_t ptag);
  * function should be called anytime a function fails or an error condition
  * is detected inside of libnet.
  * @param l pointer to a libnet context
- * @return an error string or NULL if no error has occured
+ * @return an error string or NULL if no error has occurred
  */ 
 char *
 libnet_geterror(libnet_t *l);

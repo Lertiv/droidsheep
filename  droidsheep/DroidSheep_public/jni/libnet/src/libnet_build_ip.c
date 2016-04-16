@@ -289,7 +289,7 @@ libnet_autobuild_ipv4(uint16_t len, uint8_t prot, uint32_t dst, libnet_t *l)
         {
             /*
              *  Count up number of 32-bit words in options list, padding if
-             *  neccessary.
+             *  necessary.
              */
             for (i = 0, j = 0; i < p->prev->b_len; i++)
             {

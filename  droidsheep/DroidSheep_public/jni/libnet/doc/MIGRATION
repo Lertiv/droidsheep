@@ -65,7 +65,7 @@
                    if you needed to modify it later on.  If you don't need
                    to modify the packet header you can throw this value
                    away.  You should definitely check for error now on
-                   your build functions.  Alot's going on down there fellas.
+                   your build functions.  A lot's going on down there fellas.
                 2a) NOTE that after packets are built, they may accessed
                     independently of construction order via the saved ptag.
                 3) They NO LONGER ACCEPT BUFFER ARGUMENTS.  This is ALL

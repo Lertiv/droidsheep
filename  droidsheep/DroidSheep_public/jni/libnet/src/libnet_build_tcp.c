@@ -259,7 +259,7 @@ libnet_ptag_t ptag)
         {
             /*
              *  Count up number of 32-bit words in options list, padding if
-             *  neccessary.
+             *  necessary.
              */
             for (i = 0, j = 0; i < p->b_len; i++)
             {

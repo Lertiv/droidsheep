@@ -40,7 +40,7 @@
     - With link_none, the link apis were failing with not error message. (Sam Roberts)
     - man doc makefile wasn't correctly referring to the srcdir (alon.barlev@gmail.com) (Sam Roberts)
     - Avoid mallocing zero bytes, it perturbs electric fence. (Sam Roberts)
-    - autotools patches for cross compiling and seperate builddir (alon.barlev@gmail.com) (Sam Roberts)
+    - autotools patches for cross compiling and separate builddir (alon.barlev@gmail.com) (Sam Roberts)
     - html doc makefile wasn't correctly referring to the srcdir (alon.barlev@gmail.com) (Sam Roberts)
     - ip_offset is now calculated on the fly, and UDP and TCP no longer use h_len (Sam Roberts)
     - IP offset calculation should allow nesting of IP protocols. (Sam Roberts)
@@ -267,7 +267,7 @@ Tue Nov 25 15:33:27 PST 2003                                              1.1.1
     Added an RPC builder!  Bout time eh?
     Fixed do1x.c sample code to make the frame valid.
     Fixed link-interface semantics under Mac/OSX
-    Changed libnet_stats to all be unsigned long longs to accomodate all of
+    Changed libnet_stats to all be unsigned long longs to accommodate all of
      hardcore packet writers.
     Fixed IPv6 support (to some extent) removed the IP_HDRINCL stuff and
      reworked the resolver stuff to use net_pton() and inet_ntop().
@@ -408,7 +408,7 @@ Feb 01 2002                                                       1.1.0 Beta 01
 
     Removed a ton of code from every corner of libnet.
 
-    Removed alot of useless crap:
+    Removed a lot of useless crap:
         misc directory
         ports directory
         util directory
@@ -587,7 +587,7 @@ Feb 01 2002                                                       1.1.0 Beta 01
     0.99    04.13.1999      Major manpage redux.
                             Added (broken?) PF_PACKET support for Linux (see
                              README.linux).
-                            Moved alot of m4 from configure.in to aclocal.m4.
+                            Moved a lot of m4 from configure.in to aclocal.m4.
                             Added Linux m4 macro to detect PF_PACKET.
                             Added build_icmp_unreach
                             Added build_icmp_timestamp

@@ -440,7 +440,7 @@ pcap_open_live(const char *device, int snaplen, int promisc, int to_ms,
 /*
  *  Read at most max_packets from the capture stream and call the callback
  *  for each of them. Returns the number of packets handled or -1 if an
- *  error occured.
+ *  error occurred.
  */
 static int
 pcap_read_linux(pcap_t *handle, int max_packets, pcap_handler callback, u_char *user)
@@ -455,7 +455,7 @@ pcap_read_linux(pcap_t *handle, int max_packets, pcap_handler callback, u_char *
 /*
  *  Read a packet from the socket calling the handler provided by
  *  the user. Returns the number of packets received or -1 if an
- *  error occured.
+ *  error occurred.
  */
 static int
 pcap_read_packet(pcap_t *handle, pcap_handler callback, u_char *userdata)
@@ -512,7 +512,7 @@ pcap_read_packet(pcap_t *handle, pcap_handler callback, u_char *userdata)
 			(struct sockaddr *) &from, &fromlen);
 	} while (packet_len == -1 && errno == EINTR);
 
-	/* Check if an error occured */
+	/* Check if an error occurred */
 
 	if (packet_len == -1) {
 		if (errno == EAGAIN)
